@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+  <head>
+    <meta charset="UTF-8" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap"
+      rel="stylesheet"
+    />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/layout.css" />
+    <link rel="stylesheet" href="./css/toggle.css" />
+    <link rel="stylesheet" href="./css/keyboard.css" />
+
+    <title>Calculadora</title>
+  </head>
+  <body>
+    <main>
+      <header>
+        <h2>Calculadora</h2>
+        <section class="theme-toggle">
+          <span>Tema</span>
+          <section class="toggle-container">
+            <div class="toggle-numbers">
+              <span>1</span>
+              <span>2</span>
+              <span>3</span>
+            </div>
+            <div class="toggle-base">
+              <span class="toggle-pin"></span>
+            </div>
+          </section>
+        </section>
+      </header>
+
+      <div class="display">
+        <input type="text" id="display" />
+      </div>
+
+      <div class="keyboard">
+        <div class="numbers-key" id="numbers">
+          <button value="1" class="btn number" id="1">1</button>
+          <button value="2" class="btn number" id="2">2</button>
+          <button value="3" class="btn number" id="3">3</button>
+          <button value="4" class="btn number" id="4">4</button>
+          <button value="5" class="btn number" id="5">5</button>
+          <button value="6" class="btn number" id="6">6</button>
+          <button value="7" class="btn number" id="7">7</button>
+          <button value="8" class="btn number" id="8">8</button>
+          <button value="9" class="btn number" id="9">9</button>
+        </div>
+        <div class="operators-left">
+          <button value="del" class="btn del">DEL</button>
+          <button value="+" class="btn">+</button>
+          <button value="-" class="btn">-</button>
+        </div>
+
+        <section class="main">
+          <button value="," class="btn">.</button>
+          <button value="0" class="btn">0</button>
+          <button value="/" class="btn">/</button>
+          <button value="*" class="btn">x</button>
+        </section>
+        <section class="bottom-key">
+          <button class="reset" value="reset">RESET</button>
+          <button class="total" value="=">=</button>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>
