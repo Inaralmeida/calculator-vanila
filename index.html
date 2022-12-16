@@ -56,22 +56,27 @@
           <button value="9" class="btn number" id="9">9</button>
         </div>
         <div class="operators-left">
-          <button value="del" class="btn del">DEL</button>
-          <button value="+" class="btn">+</button>
-          <button value="-" class="btn">-</button>
+          <button id="del" class="btn del">DEL</button>
+          <button value="+" class="btn operator">+</button>
+          <button value="-" class="btn operator">-</button>
         </div>
 
         <section class="main">
-          <button value="," class="btn">.</button>
-          <button value="0" class="btn">0</button>
-          <button value="/" class="btn">/</button>
-          <button value="*" class="btn">x</button>
+          <button value="." class="btn number">.</button>
+          <button value="0" class="btn number">0</button>
+          <button value="/" class="btn operator">/</button>
+          <button value="*" class="btn operator">x</button>
         </section>
         <section class="bottom-key">
-          <button class="reset" value="reset">RESET</button>
-          <button class="total" value="=">=</button>
+          <button class="reset" id="reset">RESET</button>
+          <button class="total operator" value="=">=</button>
         </section>
       </div>
     </main>
+
+    <script src="./js/views.js"></script>
+    <script src="./js/models.js"></script>
+    <script src="./js/controllers.js"></script>
+    <script src="./js/index.js"></script>
   </body>
 </html>
