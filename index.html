@@ -28,12 +28,19 @@
           <span>Tema</span>
           <section class="toggle-container">
             <div class="toggle-numbers">
-              <span>1</span>
-              <span>2</span>
-              <span>3</span>
+              <span class="toogle-option">1</span>
+              <span class="toogle-option">2</span>
+              <span class="toogle-option">3</span>
             </div>
             <div class="toggle-base">
-              <span class="toggle-pin"></span>
+              <input
+                type="range"
+                min="1"
+                max="3"
+                value="1"
+                class="slider"
+                id="myRange"
+              />
             </div>
           </section>
         </section>
@@ -74,9 +81,9 @@
       </div>
     </main>
 
-    <script src="./js/views.js"></script>
-    <script src="./js/models.js"></script>
-    <script src="./js/controllers.js"></script>
-    <script src="./js/index.js"></script>
+    <script src="./js/views.js" type="module"></script>
+    <script src="./js/models.js" type="module"></script>
+    <script src="./js/controllers.js" type="module"></script>
+    <script src="./js/index.js" type="module"></script>
   </body>
 </html>
